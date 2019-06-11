@@ -18,18 +18,26 @@ https://www.udemy.com/the-advanced-web-developer-bootcamp/learn/lecture/7706404#
   - selection.text() //.html for inner html
     selection.classed() takes a space seperates list and checks whether they should be added or removed
 
-* set attributes, inner text and properties with
+* Passing callback functions into d3 selection methods
+  - can pass callbacks instead of primitive values
+  - good for selection of multiple elements
+  - d3 callbacks second argument is the index of the current element in selection
 
-* get attributes and property values with
+- set attributes, inner text and properties with
 
-* Chain d3 methods together to make more complex changes to the dom
+- get attributes and property values with
 
-* Passing callback functions int d3 selection methods
+- Chain d3 methods together to make more complex changes to the dom
 
-* Add Event listeners
+- Add Event listeners
 
-  - On() method
+  - On() method -- selection.on(eventType, callback)
+  - cant add listens of the same type to the same element twice
 
-* Use d3.event to access the event object inside the event listener
+  - d3.event is a property that contains all the event information when referenced inside an event handler
 
-* Add and remove Dom elements with D3
+- Use d3.event to access the event object inside the event listener
+
+- Add and remove Dom elements with D3
+
+######## the guy teaching the video was sooooo boring to listen to so ima check out another tutorial
